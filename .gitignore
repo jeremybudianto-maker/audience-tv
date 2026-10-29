@@ -1,0 +1,40 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Videos remain local; only the empty folder marker may be committed.
+*.mp4
+*.m4v
+*.mov
+*.mkv
+*.webm
+assets/video/*
+!assets/video/.gitkeep
+
+# Platform metadata, dependency folders, and local tools
+.openai/
+.vercel/
+.netlify/
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archives and scratch output
+*.zip
+*.tar
+*.tar.gz
+*.log
+*.tmp
+*.bak
+
+# Existing posters/screenshots are included for authorized PRIVATE review.
+# Ignore rules do not remove tracked files/history or source-embedded branding.
